@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> minesweeper </title>
+
+        <link rel="stylesheet" type="text/css" href="minesweeper.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="minesweeper.js"></script>
+    </head>
+
+    <body>
+
+        <section class="section header-section">
+            <div class="container header-container">
+                <h1 class="title">M i n e S w e e p e r </h1>
+                
+                <h2 id="best_time"> Shortest Game Time: </h2>
+                <h2 id="timerclass">Timer: </h2>
+                <h2 id="mines_left">Mines left to find:  </h2>
+
+
+                
+
+                <p> <u>Rules: </u> <br> 
+                    Rows: between 8 and 30 <br> 
+                    Columns: between 8 and 40 <br> 
+                    At least one mine, and not more mines than the size of the board 
+                    <br> 
+                    <br> 
+                    Shift click to flag a space you think might be a mine <br>
+                    "Mines to be found" is the inputted number of mines minus flagged spaces <br>
+                    You've won when you've cleared all of the spaces that aren't mines<br>
+
+
+
+
+                </p>
+                <h2 class="subtitle" id="setlayout">Set the layout below... </h2>
+
+
+            </div>
+        </section>
+
+        <div id="gameboard"> 
+        </div>
+        <a id="iconcredits" href="https://thenounproject.com/term/flag/141018/">Flag Icon Credit</a>
+        <a id="iconcredits" href="https://thenounproject.com/term/bomb/">Bomb Icon Credit</a>
+
+        <!--        <img src="flag.jpeg">-->
+    </body>  
+</html>
+
+
+

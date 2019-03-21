@@ -1,0 +1,124 @@
+/*
+#gameboard_table {
+border: 10px solid grey;
+
+}
+*/
+/*
+
+#gameboard {
+border: 5px solid white;
+}
+*/
+
+/*
+td {	
+height:20px;
+width:20px;
+border:2px; 
+}
+*/
+
+tr{ 
+    height:100px; 
+}
+
+
+
+td{	
+
+    width:10px;
+    height:10px;
+    border:2px outset white;
+    color:rgba(0,0,0,0);
+    text-align: center; 
+
+}
+u { 
+font-size: 20px; 
+}
+
+
+td:active{
+    border:2px inset white;
+    text-align: center; 
+}
+
+img { 
+    width: 10px; 
+    height: 10px; 
+
+}
+
+/*
+.mine { 
+background:#f69f69;
+}
+*/
+
+.minefield { 
+    background:#f69f69;
+}
+
+b { 
+    font-family: sans-serif; 
+    font-size: 20px; 
+    color: black; 
+    text-align: center; 
+
+}
+
+i { 
+    font-family: sans-serif; 
+    font-size: 20px; 
+    color: ghostwhite; 
+    text-align: center;
+
+}
+
+.flagged { 
+
+
+}
+#iconcredits{ 
+    font-size: 50%; 
+
+}
+
+
+h1 { 
+    text-align: center; 
+    font-family: sans-serif; 
+    color:  #657a97; 
+    font-size: 50px; 
+}
+
+h2 {
+    text-align: center; 
+    font-family: sans-serif; 
+    color:  #657a97; 
+    font-size: 20px; 
+}
+
+p { 
+    text-align: center; 
+    font-family: sans-serif; 
+    color: #a3a1af
+
+}
+
+html{ 
+    background: white; 
+}
+
+.checked { 
+    background: #a3a1af; 
+}
+
+.neighbor { 
+    background: #657a97; 
+
+}
+
+
+
