@@ -1,2 +1,2 @@
 # comp426_minesweeper
-Assignment for COMP 426 Web Development: Minesweeper Game 
+This is an assignment to code the Minesweeper game for COMP 426 (Web Development). 
